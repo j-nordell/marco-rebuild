@@ -1,7 +1,7 @@
 body {
     background-color: #F8F8FF;
     font-family: 'Modern Antiqua', cursive;
-    min-height: 100%;
+    height: 100vh;
     /*display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr;*/
@@ -9,7 +9,7 @@ body {
 
 header {
     width: 100%;
-    height: 100%;
+    height: 50%;
 }
 
 #header-img {
@@ -26,7 +26,8 @@ header {
 }
 
 #video {
-    position: relative;
+    /*position: relative; */
+    height: 100%;
     width: 100%;
 }
 
@@ -45,9 +46,11 @@ header {
     /*background-color above is just a place holder*/
 }
 
+/*
 #video {
     position: static;
 }
+*/
 
 #product-img {
     width: 100%;
